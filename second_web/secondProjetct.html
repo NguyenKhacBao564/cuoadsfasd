@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Cá Nhân</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Chào mừng đến với trang cá nhân của tôi!</h1>
+    </header>
+    
+    <section id="about-me">
+        <h2>Giới thiệu</h2>
+        <p>Tên tôi là Nguyễn Văn A, một lập trình viên web đam mê với công nghệ và thiết kế.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Sở thích</h2>
+        <ul>
+            <li>Đọc sách</li>
+            <li>Du lịch</li>
+            <li>Chơi guitar</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Liên hệ</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Tên:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Tin nhắn:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Gửi</button>
+        </form>
+    </section>
+
+    <footer>
+        <h2>Liên kết mạng xã hội</h2>
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
